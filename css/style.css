@@ -31,6 +31,10 @@ body
     column-gap: 20px;
     row-gap: 20px;
 }
+.grid-special
+{
+    grid-template-columns: 90% auto;
+}
 
 #option-container
 {
@@ -47,3 +51,14 @@ body
     font-size:1.1rem;
 }
 
+
+#top-area > div
+{
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    margin-top: 10px;
+}
